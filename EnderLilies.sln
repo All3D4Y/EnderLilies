@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelImporter", "ExcelImporter.csproj", "{C8305D2E-B564-4FD2-A01A-02A398E6BDE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelImporter.Editor", "ExcelImporter.Editor.csproj", "{8896D53F-E309-9AD5-CAF3-F6D49724E37C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C8305D2E-B564-4FD2-A01A-02A398E6BDE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8305D2E-B564-4FD2-A01A-02A398E6BDE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8305D2E-B564-4FD2-A01A-02A398E6BDE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8305D2E-B564-4FD2-A01A-02A398E6BDE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8896D53F-E309-9AD5-CAF3-F6D49724E37C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8896D53F-E309-9AD5-CAF3-F6D49724E37C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8896D53F-E309-9AD5-CAF3-F6D49724E37C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8896D53F-E309-9AD5-CAF3-F6D49724E37C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

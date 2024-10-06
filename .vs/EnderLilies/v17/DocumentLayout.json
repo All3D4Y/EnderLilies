@@ -3,7 +3,43 @@
   "WorkspaceRootPath": "C:\\Users\\HOON\\EnderLilies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|C:\\Users\\HOON\\EnderLilies\\assets\\scripts\\contensts\\dialogsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contensts\\dialogsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\contensts\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contensts\\test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|C:\\Users\\HOON\\EnderLilies\\assets\\scripts\\contensts\\contentssystemdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contensts\\contentssystemdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|C:\\Users\\HOON\\EnderLilies\\assets\\scripts\\contensts\\contentssystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contensts\\contentssystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|C:\\Users\\HOON\\EnderLilies\\assets\\scripts\\contensts\\fadesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contensts\\fadesystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|C:\\Users\\HOON\\EnderLilies\\assets\\scripts\\excel\\dialogdbentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\excel\\dialogdbentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|C:\\Users\\HOON\\EnderLilies\\assets\\scripts\\contensts\\blink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\contensts\\blink.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|C:\\Users\\HOON\\EnderLilies\\assets\\scripts\\excel\\dialogdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\excel\\dialogdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|C:\\Users\\HOON\\EnderLilies\\assets\\scripts\\camera\\camerajoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\camera\\camerajoom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|C:\\Users\\HOON\\EnderLilies\\assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -14,11 +50,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Test.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Contensts\\Test.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Contensts\\Test.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Contensts\\Test.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Contensts\\Test.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T13:56:57.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Blink.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Contensts\\Blink.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Contensts\\Blink.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Contensts\\Blink.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Contensts\\Blink.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T13:50:46.63Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DialogDB.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Excel\\DialogDB.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Excel\\DialogDB.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Excel\\DialogDB.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Excel\\DialogDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T13:50:00.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DialogDBEntity.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Excel\\DialogDBEntity.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Excel\\DialogDBEntity.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Excel\\DialogDBEntity.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Excel\\DialogDBEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAkAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T12:38:42.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContentsSystemDB.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Contensts\\ContentsSystemDB.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Contensts\\ContentsSystemDB.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Contensts\\ContentsSystemDB.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Contensts\\ContentsSystemDB.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T11:36:40.295Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FadeSystem.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Contensts\\FadeSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Contensts\\FadeSystem.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Contensts\\FadeSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Contensts\\FadeSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwAQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T11:31:58.987Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CameraJoom.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Camera\\CameraJoom.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Camera\\CameraJoom.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Camera\\CameraJoom.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Camera\\CameraJoom.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwEAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T11:30:23.193Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "DialogSystem.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Contensts\\DialogSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Contensts\\DialogSystem.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Contensts\\DialogSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Contensts\\DialogSystem.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAzwDoAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T11:25:44.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ContentsSystem.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Contensts\\ContentsSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Contensts\\ContentsSystem.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Contensts\\ContentsSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Contensts\\ContentsSystem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-06T11:22:36.649Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Player.cs",
               "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Player\\Player.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Player\\Player.cs",
@@ -26,8 +174,7 @@
               "RelativeToolTip": "Assets\\Scripts\\Player\\Player.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAADwvwQAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-05T15:53:10.739Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-05T15:53:10.739Z"
             }
           ]
         }
