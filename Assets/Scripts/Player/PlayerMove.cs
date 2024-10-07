@@ -14,16 +14,17 @@ public class PlayerMove : MonoBehaviour
     // Components
     PlayerInput input;
     Rigidbody2D rigid;
+    SpriteRenderer sR;
 
     // Variables
     Vector2 moveDir = Vector2.zero;
     Vector2 limitXSpeedVec; 
     bool onAir = true;
-    bool canDoubleJump = false;
+    bool canDoubleJump = true;
     int isRight = 1;
     [SerializeField]
     int jumpCount = -1;
-    WaitForSeconds wait = new WaitForSeconds(0.01f);
+    WaitForSeconds wait = new WaitForSeconds(0.05f);
 
     // Properties
     public bool CanDoubleJump
@@ -48,6 +49,7 @@ public class PlayerMove : MonoBehaviour
     {
         input = GetComponent<PlayerInput>();
         rigid = GetComponent<Rigidbody2D>();
+        sR = GetComponent<SpriteRenderer>();
     }
 
     void Start()
@@ -71,7 +73,10 @@ public class PlayerMove : MonoBehaviour
         input.onDodge -= Dodge;
     }
 
-
+    void Update()
+    {
+        sR.flipX = isRight == -1;
+    }
     void FixedUpdate()
     {
         if (!onAir)
@@ -84,7 +89,12 @@ public class PlayerMove : MonoBehaviour
         }
         else
         {
-            rigid.transform.Translate(onAirSpeed * Time.deltaTime * moveDir);
+            //rigid.transform.Translate(onAirSpeed * Time.deltaTime * moveDir);
+            if ((rigid.velocity.x > 0 && moveDir.x < 0) || (rigid.velocity.x < 0 && moveDir.x > 0))
+            {
+                // 공중에서 진행방향, 입력방향 다르면
+                rigid.AddForce(onAirSpeed * moveDir, ForceMode2D.Force);
+            }
         }
     }
 
@@ -109,12 +119,13 @@ public class PlayerMove : MonoBehaviour
             rigid.AddForce(jumpPower * Vector2.up, ForceMode2D.Impulse);
             JumpCount--;
             onAir = true;
+            StopAllCoroutines();
         }
     }
 
     void Attack()
     {
-        
+        // Animation + Attack Area Collider Enable
     }
 
     void Dodge()
@@ -154,4 +165,12 @@ public class PlayerMove : MonoBehaviour
         yield return wait;
         onAir = false;
     }
+
+#if UNITY_EDITOR
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawLine(transform.position, transform.position + isRight * Vector3.right);
+    }
+#endif
 }
