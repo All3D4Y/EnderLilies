@@ -63,18 +63,23 @@
     <Compile Include="Assets\Scripts\Excel\DialogDB.cs" />
     <Compile Include="Assets\Scripts\Resources\Exp.cs" />
     <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\Example.cs" />
-    <Compile Include="Assets\Scripts\Player\FireFly.cs" />
-    <Compile Include="Assets\Scripts\Player\FireFlyManager.cs" />
+    <Compile Include="Assets\Scripts\Camera\ZoomSystem.cs" />
     <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\ExcelAsset\MstItems.cs" />
-    <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Data\ActorStatus.cs" />
     <Compile Include="Assets\Scripts\Excel\DialogDBEntity.cs" />
+    <Compile Include="Assets\Scripts\TestGit.cs" />
     <Compile Include="Assets\Scripts\Contensts\FadeSystem.cs" />
-    <Compile Include="Assets\Scripts\Camera\CameraJoom.cs" />
+    <Compile Include="Assets\Scripts\FSMController\IState.cs" />
     <Compile Include="Assets\Scripts\Contensts\ContentsSystem.cs" />
+    <Compile Include="Assets\Scripts\Actor\Player\FireFly.cs" />
     <Compile Include="Assets\Scripts\Contensts\Blink.cs" />
     <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\Entity\MstItemEntity.cs" />
     <Compile Include="Assets\Scripts\Contensts\DialogSystem.cs" />
-    <Compile Include="Assets\Scripts\Contensts\Test.cs" />
+    <Compile Include="Assets\Scripts\Actor\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\FSMController\FSMController.cs" />
+    <Compile Include="Assets\Scripts\Actor\Actor.cs" />
+    <Compile Include="Assets\Scripts\Contensts\ContentsManager.cs" />
+    <Compile Include="Assets\Scripts\Actor\Player\FireFlyManager.cs" />
     <Compile Include="Assets\Scripts\Contensts\ContentsSystemDB.cs" />
   </ItemGroup>
   <ItemGroup>

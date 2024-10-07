@@ -2,9 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements.Experimental;
 public class DialogSystem : MonoBehaviour
 {
-    [SerializeField] private int branch;                     // 선택된 분기
+    private int branch;                     // 선택된 분기
     [SerializeField] private DialogDB dialogDB;              // 대사 데이터베이스
     [SerializeField] private Speaker[] speakers;             // 대화에 참여하는 캐릭터들의 UI 배열
     [SerializeField] private DialogData[] dialogs;           // 현재 분기의 대사 목록 배열
@@ -16,8 +17,18 @@ public class DialogSystem : MonoBehaviour
     [SerializeField] private float typingSpeed = 0.1f;       // 텍스트 타이핑 효과의 재생 속도
     [SerializeField] private bool isTypingEffect = false;    // 텍스트 타이핑 효과를 재생 중인지 여부
 
-    private void Awake()
+    private void OnEnable()
     {
+        Setup();
+    }
+    public void SetBranch(int branch)
+    {
+        this.branch = branch;
+    }
+    private void Setup()
+    {
+        currentDialogIndex = -1;
+        currentSpeakerIndex = 0;
         int index = 0;
         for (int i = 0; i < dialogDB.Entities.Count; ++i)
         {
@@ -28,10 +39,6 @@ public class DialogSystem : MonoBehaviour
                 index++;
             }
         }
-        Setup();
-    }
-    private void Setup()
-    {
         // 모든 대화 관련 게임오브젝트 비활성화
         for (int i = 0; i < speakers.Length; ++i)
         {
