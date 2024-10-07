@@ -61,12 +61,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\TestGit.cs" />
-    <Compile Include="Assets\Scripts\Test3.cs" />
-    <Compile Include="Assets\Scripts\Test4.cs" />
     <Compile Include="Assets\Input\PlayerInputActions.cs" />
-    <Compile Include="Assets\Scripts\test2.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\Player\FireFly.cs" />
+    <Compile Include="Assets\Scripts\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Player\FireFlyManager.cs" />
     <Compile Include="Assets\Scripts\Player\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\Resources\Exp.cs" />
     <Compile Include="Assets\Scripts\Player\GroundCheck.cs" />
   </ItemGroup>
   <ItemGroup>
