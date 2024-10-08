@@ -110,7 +110,7 @@ public class DialogSystem : MonoBehaviour
             index++;
             yield return new WaitForSeconds(typingSpeed);  // 타이핑 속도 조절
         }
-
+        SetDialogueText(dialogs[currentDialogIndex].dialogue);
         isTypingEffect = false;  // 타이핑 효과 종료
 
         // 대사가 완료되었을 때 화살표 오브젝트 활성화
@@ -123,6 +123,14 @@ public class DialogSystem : MonoBehaviour
 
         // 화살표는 대사가 종료되었을 때만 활성화하기 때문에 항상 false
         speaker.objectArrow.SetActive(false);
+    }
+    private void SetDialogueText(string dialogue)
+    {
+        speakers[currentSpeakerIndex].textDialogue.text = dialogue;
+        speakers[currentSpeakerIndex].textDialogue.rectTransform.sizeDelta = new Vector2(
+            speakers[currentSpeakerIndex].imageDialog.rectTransform.sizeDelta.x,
+            speakers[currentSpeakerIndex].textDialogue.preferredHeight
+        );
     }
 }
 [System.Serializable]

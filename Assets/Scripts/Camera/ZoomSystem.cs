@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class ZoomSystem : MonoBehaviour
 {
+    public Player player;
     public Camera mainCamera;
     public float zoomInSize = 2f;
     public float zoomOutSize = 5f;
@@ -34,5 +35,10 @@ public class ZoomSystem : MonoBehaviour
             yield return null;
         }
         mainCamera.orthographicSize = zoomOutSize;
+    }
+    private void LateUpdate()
+    {
+        Vector3 playerPosition = player.transform.position;
+        transform.position = new Vector3(playerPosition.x, playerPosition.y, transform.position.z);
     }
 }

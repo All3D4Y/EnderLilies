@@ -79,14 +79,15 @@
     <Compile Include="Assets\Scripts\Contensts\Blink.cs" />
     <Compile Include="Assets\Scripts\Actor\ActorManager.cs" />
     <Compile Include="Assets\Scripts\Actor\Monster\Monster.cs" />
+    <Compile Include="Assets\Scripts\Contensts\SoulSystem.cs" />
     <Compile Include="Assets\Scripts\Actor\Monster\MonsterMove.cs" />
     <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\Entity\MstItemEntity.cs" />
-    <Compile Include="Assets\Scripts\Actor\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Contensts\DialogSystem.cs" />
+    <Compile Include="Assets\Scripts\Actor\Player\Player.cs" />
     <Compile Include="Assets\Scripts\FSMController\FSMController.cs" />
+    <Compile Include="Assets\Scripts\Actor\IEvent\IEvent.cs" />
     <Compile Include="Assets\Scripts\Actor\Actor.cs" />
     <Compile Include="Assets\Scripts\Contensts\ContentsManager.cs" />
-    <Compile Include="Assets\Scripts\Actor\IEvent\IEvent.cs" />
     <Compile Include="Assets\Scripts\Actor\Player\FireFlyManager.cs" />
     <Compile Include="Assets\Scripts\Contensts\ContentsSystemDB.cs" />
   </ItemGroup>
@@ -921,6 +922,10 @@
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
