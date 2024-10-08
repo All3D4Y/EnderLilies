@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player : MonoBehaviour
+public class Player : Actor
 {
     float moveX;
     float moveY;
@@ -34,5 +34,9 @@ public class Player : MonoBehaviour
                 inputMagnitude = 0;
             }
         }
+    }
+    public override void ReceiveEvent(IEvent iEvent)
+    {
+        throw new System.NotImplementedException();
     }
 }
