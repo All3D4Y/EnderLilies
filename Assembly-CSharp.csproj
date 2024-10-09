@@ -63,6 +63,7 @@
     <Compile Include="Assets\Scripts\Actor\IEvent\RecoveryHpEvent.cs" />
     <Compile Include="Assets\Scripts\Excel\DialogDB.cs" />
     <Compile Include="Assets\Scripts\Resources\Exp.cs" />
+    <Compile Include="Assets\Scripts\Inventory\DropSlot.cs" />
     <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\Example.cs" />
     <Compile Include="Assets\Scripts\Actor\IEvent\DamageEvent.cs" />
     <Compile Include="Assets\Scripts\Camera\ZoomSystem.cs" />
@@ -82,14 +83,16 @@
     <Compile Include="Assets\Scripts\Contensts\SoulSystem.cs" />
     <Compile Include="Assets\Scripts\Actor\Monster\MonsterMove.cs" />
     <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\Entity\MstItemEntity.cs" />
-    <Compile Include="Assets\Scripts\Contensts\DialogSystem.cs" />
     <Compile Include="Assets\Scripts\Actor\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Contensts\DialogSystem.cs" />
     <Compile Include="Assets\Scripts\FSMController\FSMController.cs" />
-    <Compile Include="Assets\Scripts\Actor\IEvent\IEvent.cs" />
     <Compile Include="Assets\Scripts\Actor\Actor.cs" />
     <Compile Include="Assets\Scripts\Contensts\ContentsManager.cs" />
+    <Compile Include="Assets\Scripts\Actor\IEvent\IEvent.cs" />
+    <Compile Include="Assets\Scripts\Inventory\SkillInventory.cs" />
     <Compile Include="Assets\Scripts\Actor\Player\FireFlyManager.cs" />
     <Compile Include="Assets\Scripts\Contensts\ContentsSystemDB.cs" />
+    <Compile Include="Assets\Scripts\Inventory\DragSlot.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
