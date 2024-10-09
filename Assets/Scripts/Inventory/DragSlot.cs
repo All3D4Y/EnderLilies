@@ -7,11 +7,15 @@ public class DragSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
 {
     private CanvasGroup canvasGroup;
     private RectTransform rectTransform;
+    private Vector2 originalPosition;
+
+
 
     private void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
         rectTransform = GetComponent<RectTransform>();
+        originalPosition = rectTransform.anchoredPosition; 
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -26,6 +30,8 @@ public class DragSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     {
         canvasGroup.alpha = 1.0f;
         canvasGroup.blocksRaycasts = true; // 드래그 끝나면 Raycast 활성화
+
+        rectTransform.anchoredPosition = originalPosition;
     }
     private float CanvasScaleFactor()
     {

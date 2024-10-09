@@ -1,0 +1,96 @@
+{
+    "skillInventoryData": {
+        "skillSlotDatas": [
+            {
+                "dataID": "1",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            }
+        ]
+    }
+}

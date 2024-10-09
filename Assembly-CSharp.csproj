@@ -61,9 +61,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Actor\IEvent\RecoveryHpEvent.cs" />
+    <Compile Include="Assets\Scripts\Excel\SkillData.cs" />
+    <Compile Include="Assets\Scripts\Data\SlotData.cs" />
+    <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
     <Compile Include="Assets\Scripts\Excel\DialogDB.cs" />
     <Compile Include="Assets\Scripts\Resources\Exp.cs" />
+    <Compile Include="Assets\Scripts\Data\GameData.cs" />
     <Compile Include="Assets\Scripts\Inventory\DropSlot.cs" />
+    <Compile Include="Assets\Scripts\Data\GameDataView.cs" />
     <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\Example.cs" />
     <Compile Include="Assets\Scripts\Actor\IEvent\DamageEvent.cs" />
     <Compile Include="Assets\Scripts\Camera\ZoomSystem.cs" />
@@ -75,6 +80,7 @@
     <Compile Include="Assets\Scripts\Actor\Monster\MonsterDetector.cs" />
     <Compile Include="Assets\Scripts\Actor\Monster\MonsterAttack.cs" />
     <Compile Include="Assets\Scripts\FSMController\IState.cs" />
+    <Compile Include="Assets\Scripts\Excel\GameDB.cs" />
     <Compile Include="Assets\Scripts\Contensts\ContentsSystem.cs" />
     <Compile Include="Assets\Scripts\Actor\Player\FireFly.cs" />
     <Compile Include="Assets\Scripts\Contensts\Blink.cs" />

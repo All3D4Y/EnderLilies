@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 8
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c6e42644d8f45f3488d8bf674418419b, type: 3}
+  m_Name: GameDB
+  m_EditorClassIdentifier: 
+  skillDatas:
+  - dataID: skill1
+    name: "\uCCAB\uC2A4\uD0B7"
+    prefabPath: 
+    iconPath: Icon/Skill1
+  - dataID: skill2
+    name: "\uB458\uC2A4\uD0AC"
+    prefabPath: 
+    iconPath: Icon/Skill2

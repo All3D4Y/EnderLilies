@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
+using UnityEngine.UI;
 
-public class DropSlot : MonoBehaviour, IDropHandler,IPointerEnterHandler, IPointerExitHandler
+public class DropSlot : MonoBehaviour, IDropHandler
 {
+    [SerializeField] Image image;
+    [SerializeField] Text countText;
     public void OnDrop(PointerEventData eventData)
     {
         GameObject draggedObject = eventData.pointerDrag;
@@ -18,15 +21,5 @@ public class DropSlot : MonoBehaviour, IDropHandler,IPointerEnterHandler, IPoint
                 draggedObject.transform.localPosition = Vector3.zero; 
             }
         }
-    }
-
-    public void OnPointerEnter(PointerEventData eventData)
-    {
-        throw new System.NotImplementedException();
-    }
-
-    public void OnPointerExit(PointerEventData eventData)
-    {
-        throw new System.NotImplementedException();
     }
 }

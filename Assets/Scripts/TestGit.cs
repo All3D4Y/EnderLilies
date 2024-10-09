@@ -4,15 +4,9 @@ using UnityEngine;
 
 public class TestGit : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+   
+    public void Test()
     {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
+       Debug.Log(GameManager.instance.gameDB.GetSkillData("skill1").prefabPath);
     }
 }
