@@ -60,45 +60,49 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Actor\IEvent\RecoveryHpEvent.cs" />
-    <Compile Include="Assets\Scripts\Excel\SkillData.cs" />
-    <Compile Include="Assets\Scripts\Data\SlotData.cs" />
-    <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
-    <Compile Include="Assets\Scripts\Excel\DialogDB.cs" />
-    <Compile Include="Assets\Scripts\Resources\Exp.cs" />
     <Compile Include="Assets\Scripts\Data\GameData.cs" />
-    <Compile Include="Assets\Scripts\Inventory\DropSlot.cs" />
-    <Compile Include="Assets\Scripts\Data\GameDataView.cs" />
-    <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\Example.cs" />
-    <Compile Include="Assets\Scripts\Actor\IEvent\DamageEvent.cs" />
-    <Compile Include="Assets\Scripts\Camera\ZoomSystem.cs" />
-    <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\ExcelAsset\MstItems.cs" />
-    <Compile Include="Assets\Scripts\Data\ActorStatus.cs" />
-    <Compile Include="Assets\Scripts\Excel\DialogDBEntity.cs" />
     <Compile Include="Assets\Scripts\TestGit.cs" />
-    <Compile Include="Assets\Scripts\Contensts\FadeSystem.cs" />
-    <Compile Include="Assets\Scripts\Actor\Monster\MonsterDetector.cs" />
-    <Compile Include="Assets\Scripts\Actor\Monster\MonsterAttack.cs" />
-    <Compile Include="Assets\Scripts\FSMController\IState.cs" />
-    <Compile Include="Assets\Scripts\Excel\GameDB.cs" />
-    <Compile Include="Assets\Scripts\Contensts\ContentsSystem.cs" />
-    <Compile Include="Assets\Scripts\Actor\Player\FireFly.cs" />
-    <Compile Include="Assets\Scripts\Contensts\Blink.cs" />
     <Compile Include="Assets\Scripts\Actor\ActorManager.cs" />
     <Compile Include="Assets\Scripts\Actor\Monster\Monster.cs" />
-    <Compile Include="Assets\Scripts\Contensts\SoulSystem.cs" />
-    <Compile Include="Assets\Scripts\Actor\Monster\MonsterMove.cs" />
-    <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\Entity\MstItemEntity.cs" />
-    <Compile Include="Assets\Scripts\Actor\Player\Player.cs" />
-    <Compile Include="Assets\Scripts\Contensts\DialogSystem.cs" />
+    <Compile Include="Assets\Scripts\Actor\Player\GroundCheck.cs" />
     <Compile Include="Assets\Scripts\FSMController\FSMController.cs" />
-    <Compile Include="Assets\Scripts\Actor\Actor.cs" />
-    <Compile Include="Assets\Scripts\Contensts\ContentsManager.cs" />
     <Compile Include="Assets\Scripts\Actor\IEvent\IEvent.cs" />
+    <Compile Include="Assets\Scripts\Actor\Player\PlayerInput.cs" />
+    <Compile Include="Assets\Scripts\FSMController\IState.cs" />
+    <Compile Include="Assets\Scripts\Actor\IEvent\RecoveryHpEvent.cs" />
+    <Compile Include="Assets\Input\PlayerInputActions.cs" />
+    <Compile Include="Assets\Scripts\Actor\Actor.cs" />
+    <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
+    <Compile Include="Assets\Scripts\Inventory\DropSlot.cs" />
+    <Compile Include="Assets\Scripts\Camera\ZoomSystem.cs" />
+    <Compile Include="Assets\Scripts\Actor\Player\FireFly.cs" />
+    <Compile Include="Assets\Scripts\Excel\SkillData.cs" />
+    <Compile Include="Assets\Scripts\Excel\DialogDB.cs" />
+    <Compile Include="Assets\Scripts\Actor\IEvent\DamageEvent.cs" />
+    <Compile Include="Assets\Scripts\Excel\GameDB.cs" />
+    <Compile Include="Assets\Scripts\Contensts\SoulSystem.cs" />
+    <Compile Include="Assets\Scripts\Actor\Player\PlayerMove.cs" />
+    <Compile Include="Assets\Scripts\Data\SlotData.cs" />
+    <Compile Include="Assets\Scripts\Data\GameDataView.cs" />
+    <Compile Include="Assets\Scripts\Actor\Player\Player.cs" />
+    <Compile Include="Assets\Scripts\Contensts\ContentsManager.cs" />
     <Compile Include="Assets\Scripts\Inventory\SkillInventory.cs" />
     <Compile Include="Assets\Scripts\Actor\Player\FireFlyManager.cs" />
-    <Compile Include="Assets\Scripts\Contensts\ContentsSystemDB.cs" />
+    <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\ExcelAsset\MstItems.cs" />
+    <Compile Include="Assets\Scripts\Excel\DialogDBEntity.cs" />
+    <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\Example.cs" />
+    <Compile Include="Assets\Scripts\Contensts\ContentsSystem.cs" />
+    <Compile Include="Assets\Scripts\Contensts\Blink.cs" />
+    <Compile Include="Assets\Scripts\Actor\Monster\MonsterDetector.cs" />
+    <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\Entity\MstItemEntity.cs" />
+    <Compile Include="Assets\Scripts\Contensts\DialogSystem.cs" />
+    <Compile Include="Assets\Scripts\Resources\Exp.cs" />
+    <Compile Include="Assets\Scripts\Data\ActorStatus.cs" />
+    <Compile Include="Assets\Scripts\Actor\Monster\MonsterMove.cs" />
     <Compile Include="Assets\Scripts\Inventory\DragSlot.cs" />
+    <Compile Include="Assets\Scripts\Contensts\FadeSystem.cs" />
+    <Compile Include="Assets\Scripts\Actor\Monster\MonsterAttack.cs" />
+    <Compile Include="Assets\Scripts\Contensts\ContentsSystemDB.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -431,6 +435,22 @@
     </Reference>
     <Reference Include="UnityEditor.UnityConnectModule">
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\Managed\UnityEngine\UnityEditor.UnityConnectModule.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections.LowLevel.ILSupport">
+      <HintPath>Library\PackageCache\com.unity.collections@1.2.4\Unity.Collections.LowLevel.ILSupport\Unity.Collections.LowLevel.ILSupport.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.GradleProject">
+      <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.GradleProject.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -921,6 +941,62 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\NetStandard\compat\2.1.0\shims\netfx\System.Xml.Serialization.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.2D.IK.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Path.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Path.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Common">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Common.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Sprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Collections">
+      <HintPath>Library\ScriptAssemblies\Unity.Collections.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.PixelPerfect">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.PixelPerfect.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Aseprite.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Aseprite.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="PsdPlugin">
+      <HintPath>Library\ScriptAssemblies\PsdPlugin.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Burst">
+      <HintPath>Library\ScriptAssemblies\Unity.Burst.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualStudio.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualStudio.Editor.dll</HintPath>
       <Private>False</Private>
@@ -929,23 +1005,75 @@
       <HintPath>Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.2D.Tilemap.Extras">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Extras.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.2D.Sprite.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.2D.Sprite.Editor.dll</HintPath>
+    <Reference Include="Unity.InternalAPIEngineBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEngineBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Runtime.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InputSystem.ForUI">
+      <HintPath>Library\ScriptAssemblies\Unity.InputSystem.ForUI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.InternalAPIEditorBridge.001">
+      <HintPath>Library\ScriptAssemblies\Unity.InternalAPIEditorBridge.001.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Psdimporter.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Psdimporter.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Mathematics">
+      <HintPath>Library\ScriptAssemblies\Unity.Mathematics.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Common.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Common.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.SpriteShape.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.SpriteShape.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Tilemap.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Tilemap.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.Animation.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.Animation.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.2D.IK.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.2D.IK.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="ExcelImporter.csproj">
-      <Project>{C8305D2E-B564-4FD2-A01A-02A398E6BDE2}</Project>
-      <Name>ExcelImporter</Name>
-    </ProjectReference>
     <ProjectReference Include="ExcelImporter.Editor.csproj">
       <Project>{8896D53F-E309-9AD5-CAF3-F6D49724E37C}</Project>
       <Name>ExcelImporter.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="ExcelImporter.csproj">
+      <Project>{C8305D2E-B564-4FD2-A01A-02A398E6BDE2}</Project>
+      <Name>ExcelImporter</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
