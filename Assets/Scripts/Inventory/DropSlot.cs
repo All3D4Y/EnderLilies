@@ -6,20 +6,44 @@ using UnityEngine.UI;
 
 public class DropSlot : MonoBehaviour, IDropHandler
 {
-    [SerializeField] Image image;
+    private SlotData slotData;
+    DragSlot dragSlot;
+    public InventoryType inventoryType;
+    [SerializeField] Image backGroundImage;
+    [SerializeField] Image dataImage;
     [SerializeField] Text countText;
-    public void OnDrop(PointerEventData eventData)
+    private void Awake()
     {
-        GameObject draggedObject = eventData.pointerDrag;
-
-        if (draggedObject != null)
+        dragSlot = GetComponentInChildren<DragSlot>();
+    }
+    public void SetData(SlotData slotData)
+    {
+        this.slotData = slotData;
+        SetDataUI(slotData);
+    }
+    public void SetDataUI(SlotData slotData)
+    {
+        if (!string.IsNullOrEmpty(slotData.dataID))
         {
-            DragSlot dragSlot = draggedObject.GetComponent<DragSlot>();
+            dataImage.sprite = Resources.Load<Sprite>(GameManager.instance.gameDB.GetGameData(slotData.dataID).iconPath);
             if (dragSlot != null)
             {
-                draggedObject.transform.SetParent(transform);
-                draggedObject.transform.localPosition = Vector3.zero; 
+                dragSlot.UpdateIconImage(Resources.Load<Sprite>(GameManager.instance.gameDB.GetGameData(slotData.dataID).iconPath));
             }
+        }
+        countText.text = slotData.count.ToString();
+    }
+    public void OnDrop(PointerEventData eventData)
+    {
+        if (inventoryType != InventoryType.EquipInventory)
+        {
+            return;
+        }
+        SlotData data = eventData.pointerDrag.GetComponent<DragSlot>().dropSlot.slotData;
+        if (data != null)
+        {
+            SetData(data);
+            EventManager.instance.ChangedEquipSkill(GameManager.instance.gameDB.GetGameData(slotData.dataID).iconPath);
         }
     }
 }

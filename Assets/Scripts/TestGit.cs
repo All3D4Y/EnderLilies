@@ -4,9 +4,12 @@ using UnityEngine;
 
 public class TestGit : MonoBehaviour
 {
-   
+    public DropSlot slot;
     public void Test()
     {
-       Debug.Log(GameManager.instance.gameDB.GetSkillData("skill1").prefabPath);
+        SlotData slotData = new SlotData();
+        slotData.dataID = "skill1";
+        slotData.count = 10;
+        slot.SetData(slotData);
     }
 }

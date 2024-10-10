@@ -61,8 +61,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Actor\IEvent\RecoveryHpEvent.cs" />
-    <Compile Include="Assets\Scripts\Excel\SkillData.cs" />
     <Compile Include="Assets\Scripts\Data\SlotData.cs" />
+    <Compile Include="Assets\Scripts\Excel\GameDataDB.cs" />
     <Compile Include="Assets\Scripts\Manager\GameManager.cs" />
     <Compile Include="Assets\Scripts\Excel\DialogDB.cs" />
     <Compile Include="Assets\Scripts\Resources\Exp.cs" />
@@ -71,8 +71,10 @@
     <Compile Include="Assets\Scripts\Data\GameDataView.cs" />
     <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\Example.cs" />
     <Compile Include="Assets\Scripts\Actor\IEvent\DamageEvent.cs" />
+    <Compile Include="Assets\Scripts\UI\QuickSkillSlotUI.cs" />
     <Compile Include="Assets\Scripts\Camera\ZoomSystem.cs" />
     <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\ExcelAsset\MstItems.cs" />
+    <Compile Include="Assets\Scripts\Inventory\SkillEquipInventory.cs" />
     <Compile Include="Assets\Scripts\Data\ActorStatus.cs" />
     <Compile Include="Assets\Scripts\Excel\DialogDBEntity.cs" />
     <Compile Include="Assets\Scripts\TestGit.cs" />
@@ -84,17 +86,20 @@
     <Compile Include="Assets\Scripts\Contensts\ContentsSystem.cs" />
     <Compile Include="Assets\Scripts\Actor\Player\FireFly.cs" />
     <Compile Include="Assets\Scripts\Contensts\Blink.cs" />
-    <Compile Include="Assets\Scripts\Actor\ActorManager.cs" />
-    <Compile Include="Assets\Scripts\Actor\Monster\Monster.cs" />
     <Compile Include="Assets\Scripts\Contensts\SoulSystem.cs" />
+    <Compile Include="Assets\Scripts\Actor\ActorManager.cs" />
+    <Compile Include="Assets\Scripts\Manager\EventManager.cs" />
+    <Compile Include="Assets\Scripts\Actor\Monster\Monster.cs" />
     <Compile Include="Assets\Scripts\Actor\Monster\MonsterMove.cs" />
+    <Compile Include="Assets\Scripts\UI\QuickSkillSlotsUI.cs" />
     <Compile Include="Assets\Scripts\Excel\ExcelImporter\Example\Scripts\Entity\MstItemEntity.cs" />
-    <Compile Include="Assets\Scripts\Actor\Player\Player.cs" />
     <Compile Include="Assets\Scripts\Contensts\DialogSystem.cs" />
+    <Compile Include="Assets\Scripts\Actor\Player\Player.cs" />
     <Compile Include="Assets\Scripts\FSMController\FSMController.cs" />
+    <Compile Include="Assets\Scripts\Inventory\BaseInventory.cs" />
+    <Compile Include="Assets\Scripts\Actor\IEvent\IEvent.cs" />
     <Compile Include="Assets\Scripts\Actor\Actor.cs" />
     <Compile Include="Assets\Scripts\Contensts\ContentsManager.cs" />
-    <Compile Include="Assets\Scripts\Actor\IEvent\IEvent.cs" />
     <Compile Include="Assets\Scripts\Inventory\SkillInventory.cs" />
     <Compile Include="Assets\Scripts\Actor\Player\FireFlyManager.cs" />
     <Compile Include="Assets\Scripts\Contensts\ContentsSystemDB.cs" />

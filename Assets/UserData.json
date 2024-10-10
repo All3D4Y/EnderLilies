@@ -1,8 +1,8 @@
 {
     "skillInventoryData": {
-        "skillSlotDatas": [
+        "slotDatas": [
             {
-                "dataID": "1",
+                "dataID": "",
                 "count": 0,
                 "maxCount": 99
             },
@@ -91,6 +91,27 @@
                 "count": 0,
                 "maxCount": 99
             }
-        ]
+        ],
+        "inventoryCount": 18
+    },
+    "skillEquipInventoryData": {
+        "slotDatas": [
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            },
+            {
+                "dataID": "",
+                "count": 0,
+                "maxCount": 99
+            }
+        ],
+        "inventoryCount": 3
     }
 }

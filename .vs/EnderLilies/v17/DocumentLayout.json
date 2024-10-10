@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\HOON\\EnderLilies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\data\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\inventory\\skillequipinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\skillequipinventory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\data\\slotdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\slotdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\ui\\quickskillslotui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\quickskillslotui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\data\\gamedataview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\gamedataview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\ui\\quickskillslotsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ui\\quickskillslotsui.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\excel\\gamedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\excel\\gamedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\inventory\\dropslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\dropslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\excel\\dialogdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\excel\\dialogdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\inventory\\dragslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\inventory\\dragslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,66 +35,66 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GameDataView.cs",
-              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Data\\GameDataView.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\GameDataView.cs",
-              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Data\\GameDataView.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\GameDataView.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAkwBYAAAAIAAAA",
+              "Title": "QuickSkillSlotsUI.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\UI\\QuickSkillSlotsUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\QuickSkillSlotsUI.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\UI\\QuickSkillSlotsUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\QuickSkillSlotsUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T16:41:35.722Z",
+              "WhenOpened": "2024-10-10T16:05:25.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameData.cs",
-              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Data\\GameData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\GameData.cs",
-              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Data\\GameData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\GameData.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAxwCAAAAAFAAAA",
+              "Title": "SkillEquipInventory.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Inventory\\SkillEquipInventory.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\SkillEquipInventory.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Inventory\\SkillEquipInventory.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\SkillEquipInventory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T16:39:44.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SlotData.cs",
-              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Data\\SlotData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SlotData.cs",
-              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Data\\SlotData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\SlotData.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAEAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T16:39:07.002Z",
+              "WhenOpened": "2024-10-10T15:57:07.912Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "DialogDB.cs",
-              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Excel\\DialogDB.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Excel\\DialogDB.cs",
-              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Excel\\DialogDB.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Excel\\DialogDB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
+              "Title": "DragSlot.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Inventory\\DragSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\DragSlot.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Inventory\\DragSlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\DragSlot.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T16:29:43.599Z",
+              "WhenOpened": "2024-10-10T15:57:04.18Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "GameDB.cs",
-              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Excel\\GameDB.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Excel\\GameDB.cs",
-              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Excel\\GameDB.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Excel\\GameDB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBYAAAABAAAA",
+              "Title": "DropSlot.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Inventory\\DropSlot.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Inventory\\DropSlot.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Inventory\\DropSlot.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Inventory\\DropSlot.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T16:15:32.587Z",
+              "WhenOpened": "2024-10-10T15:56:57.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "QuickSkillSlotUI.cs",
+              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\UI\\QuickSkillSlotUI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\UI\\QuickSkillSlotUI.cs",
+              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\UI\\QuickSkillSlotUI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\UI\\QuickSkillSlotUI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAuwA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-10T15:29:57.899Z",
               "EditorCaption": ""
             }
           ]

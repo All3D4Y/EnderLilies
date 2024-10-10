@@ -3,8 +3,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[Serializable]
-public class SkillData
+[Serializable] 
+public class GameDataDB
 {
     public string dataID;
     public string name;

@@ -8,7 +8,8 @@ public class SlotData
     public string dataID;
     public int count;
     public int maxCount = 99;
-    public void AddData(string id, int newCount)
+    public event Action<SlotData> onDataChanged;
+    public void SetData(string id, int newCount)
     {
         if (id == null || newCount <= 0)
         {
@@ -28,39 +29,57 @@ public class SlotData
                 return;
             }
         }
-    }
-    public void RemoveData()
-    {
-        dataID = null;
-        count = 0;
+        onDataChanged?.Invoke(this);
     }
     public string GetData()
     {
         return dataID;
     }
 }
-[Serializable]
-public class SkillInventoryData
+public class InventoryData
 {
-    public List<SlotData> skillSlotDatas;
-    private void InitializeSlots(int count)
+    public List<SlotData> slotDatas;
+    protected void InitializeSlots(int count)
     {
-        skillSlotDatas = new List<SlotData>(count);
+        slotDatas = new List<SlotData>(count);
         for (int i = 0; i < count; i++)
         {
-            skillSlotDatas.Add(new SlotData());
+            slotDatas.Add(new SlotData());
         }
     }
+}
+[Serializable]
+public class SkillInventoryData : InventoryData
+{
+    public int inventoryCount = 18;
     public SkillInventoryData()
     {
-        if (skillSlotDatas == null || skillSlotDatas.Count == 0)
+        if (slotDatas == null || slotDatas.Count == 0)
         {
-            InitializeSlots(18);
+            InitializeSlots(inventoryCount);
             Debug.Log("초기화");
         }
         else
         {
-            Debug.Log(skillSlotDatas.Count);
+            Debug.Log(slotDatas.Count);
+        }
+    }
+}
+
+[Serializable]
+public class SkillEquipInventoryData : InventoryData
+{
+    public int inventoryCount = 3;
+    public SkillEquipInventoryData()
+    {
+        if (slotDatas == null || slotDatas.Count == 0)
+        {
+            InitializeSlots(inventoryCount);
+            Debug.Log("초기화");
+        }
+        else
+        {
+            Debug.Log(slotDatas.Count);
         }
     }
 }

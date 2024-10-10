@@ -2,14 +2,23 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SkillInventory : MonoBehaviour
+public class SkillInventory : BaseInventory
 {
-    public GameObject slotPrefab;
-    private void Awake()
+    private SkillInventoryData skillInventoryData;
+
+    protected override void Awake()
     {
-        for (int i = 0; i < 18; i++)
+        base.Awake();
+        skillInventoryData = GameData.instance.skillInventoryData;
+        SetSlotCount(skillInventoryData.inventoryCount);
+        SetSlotData();
+    }
+    void SetSlotData()
+    {
+        for (int i = 0; i < skillInventoryData.inventoryCount; i++)
         {
-            Instantiate(slotPrefab, transform);
+            skillInventoryData.slotDatas[i].onDataChanged += slots[i].SetDataUI;
+            slots[i].SetDataUI(skillInventoryData.slotDatas[i]);
         }
     }
 }

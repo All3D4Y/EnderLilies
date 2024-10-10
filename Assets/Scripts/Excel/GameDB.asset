@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c6e42644d8f45f3488d8bf674418419b, type: 3}
   m_Name: GameDB
   m_EditorClassIdentifier: 
-  skillDatas:
+  gameDatas:
   - dataID: skill1
     name: "\uCCAB\uC2A4\uD0B7"
-    prefabPath: 
+    prefabPath: 1
     iconPath: Icon/Skill1
   - dataID: skill2
     name: "\uB458\uC2A4\uD0AC"

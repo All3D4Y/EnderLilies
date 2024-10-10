@@ -7,10 +7,10 @@ using UnityEngine.Profiling;
 [ExcelAsset]
 public class GameDB : ScriptableObject
 {
-	public List<SkillData> skillDatas;
-    public SkillData GetSkillData(string id)
+	public List<GameDataDB> gameDatas;
+    public GameDataDB GetGameData(string id)
     {
-        foreach (SkillData profile in skillDatas)
+        foreach (GameDataDB profile in gameDatas)
         {
             if (id == profile.dataID)
             {

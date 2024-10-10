@@ -410,6 +410,10 @@
       <HintPath>C:\Program Files\Unity\Hub\Editor\2022.3.37f1\Editor\Data\PlaybackEngines\WindowsStandaloneSupport\UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="NPOI.OOXML">
+      <HintPath>Assets\Scripts\Excel\ExcelImporter\Editor\NPOI\Net20\NPOI.OOXML.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="NPOI.OpenXmlFormats">
       <HintPath>Assets\Scripts\Excel\ExcelImporter\Editor\NPOI\Net20\NPOI.OpenXmlFormats.dll</HintPath>
       <Private>False</Private>
@@ -418,16 +422,12 @@
       <HintPath>Assets\Scripts\Excel\ExcelImporter\Editor\NPOI\Net20\ICSharpCode.SharpZipLib.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="NPOI.OpenXml4Net">
-      <HintPath>Assets\Scripts\Excel\ExcelImporter\Editor\NPOI\Net20\NPOI.OpenXml4Net.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="NPOI">
       <HintPath>Assets\Scripts\Excel\ExcelImporter\Editor\NPOI\Net20\NPOI.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="NPOI.OOXML">
-      <HintPath>Assets\Scripts\Excel\ExcelImporter\Editor\NPOI\Net20\NPOI.OOXML.dll</HintPath>
+    <Reference Include="NPOI.OpenXml4Net">
+      <HintPath>Assets\Scripts\Excel\ExcelImporter\Editor\NPOI\Net20\NPOI.OpenXml4Net.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
