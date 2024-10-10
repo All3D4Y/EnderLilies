@@ -24,7 +24,7 @@ public class GroundCheck : MonoBehaviour
 
     void OnTriggerStay2D(Collider2D collision)
     {
-        if (collision.CompareTag("Ground"))
+        if (collision.CompareTag("Ground") && playerMove.JumpCount == 0)
         {
             playerMove.JumpCountReset();
         }

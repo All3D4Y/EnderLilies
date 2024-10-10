@@ -1,26 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\HOON\\EnderLilies\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Unity\\Aldy\\EnderLilies\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\data\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\gamedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|C:\\Users\\Administrator\\Desktop\\Unity\\Aldy\\EnderLilies\\assets\\scripts\\actor\\player\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\actor\\player\\playermove.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\data\\slotdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\slotdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\data\\gamedataview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\data\\gamedataview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\excel\\gamedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\excel\\gamedb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\hoon\\enderlilies\\assets\\scripts\\excel\\dialogdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\excel\\dialogdb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|c:\\users\\administrator\\desktop\\unity\\aldy\\enderlilies\\assets\\scripts\\actor\\player\\groundcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{98A00F1C-2427-05B1-BA9E-30E40CDEF3D5}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\actor\\player\\groundcheck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,67 +22,28 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "GameDataView.cs",
-              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Data\\GameDataView.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\GameDataView.cs",
-              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Data\\GameDataView.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\GameDataView.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAkwBYAAAAIAAAA",
+              "DocumentIndex": 1,
+              "Title": "GroundCheck.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Unity\\Aldy\\EnderLilies\\Assets\\Scripts\\Actor\\Player\\GroundCheck.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Actor\\Player\\GroundCheck.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Unity\\Aldy\\EnderLilies\\Assets\\Scripts\\Actor\\Player\\GroundCheck.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Actor\\Player\\GroundCheck.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAYwBMAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T16:41:35.722Z",
+              "WhenOpened": "2024-10-10T04:47:27.749Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GameData.cs",
-              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Data\\GameData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\GameData.cs",
-              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Data\\GameData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\GameData.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAxwCAAAAAFAAAA",
+              "Title": "PlayerMove.cs",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Unity\\Aldy\\EnderLilies\\Assets\\Scripts\\Actor\\Player\\PlayerMove.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Actor\\Player\\PlayerMove.cs",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Unity\\Aldy\\EnderLilies\\Assets\\Scripts\\Actor\\Player\\PlayerMove.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Actor\\Player\\PlayerMove.cs",
+              "ViewState": "AQIAAHYAAAAAAAAAAAAIwIIAAABuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T16:39:44.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "SlotData.cs",
-              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Data\\SlotData.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Data\\SlotData.cs",
-              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Data\\SlotData.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Data\\SlotData.cs",
-              "ViewState": "AQIAAB4AAAAAAAAAAAAAAEAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T16:39:07.002Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "DialogDB.cs",
-              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Excel\\DialogDB.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Excel\\DialogDB.cs",
-              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Excel\\DialogDB.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Excel\\DialogDB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T16:29:43.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "GameDB.cs",
-              "DocumentMoniker": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Excel\\GameDB.cs",
-              "RelativeDocumentMoniker": "Assets\\Scripts\\Excel\\GameDB.cs",
-              "ToolTip": "C:\\Users\\HOON\\EnderLilies\\Assets\\Scripts\\Excel\\GameDB.cs",
-              "RelativeToolTip": "Assets\\Scripts\\Excel\\GameDB.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAuwBYAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-09T16:15:32.587Z",
+              "WhenOpened": "2024-10-10T04:46:31.021Z",
               "EditorCaption": ""
             }
           ]

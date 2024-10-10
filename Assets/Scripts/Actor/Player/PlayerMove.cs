@@ -19,7 +19,7 @@ public class PlayerMove : MonoBehaviour
     // Variables
     Vector2 moveDir = Vector2.zero;
     Vector2 limitXSpeedVec; 
-    bool onAir = true;
+    bool onAir = false;
     bool canDoubleJump = true;
     int isRight = 1;
     [SerializeField]
@@ -45,10 +45,10 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
-    int JumpCount
+    public int JumpCount
     {
         get => jumpCount;
-        set
+        private set
         {
             if (value != jumpCount)
             {
@@ -128,7 +128,7 @@ public class PlayerMove : MonoBehaviour
         // 바닥인지, 2단점프 구현
         if (IsJumpAvailable())
         {
-            if (OnAir && (rigid.velocity.x > 0 && moveDir.x < 0) || (rigid.velocity.x < 0 && moveDir.x > 0))
+            if (OnAir && ((rigid.velocity.x > 0 && moveDir.x < 0) || (rigid.velocity.x < 0 && moveDir.x > 0)))
             {
                 rigid.AddForce((onAirSpeed * moveDir)+(jumpPower * Vector2.up), ForceMode2D.Impulse);
             }
