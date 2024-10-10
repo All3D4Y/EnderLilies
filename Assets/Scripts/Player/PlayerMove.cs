@@ -33,6 +33,18 @@ public class PlayerMove : MonoBehaviour
         set => canDoubleJump = value;
     }
 
+    public bool OnAir
+    {
+        get => onAir;
+        set
+        {
+            if (onAir != value)
+            {
+                onAir = value;
+            }
+        }
+    }
+
     int JumpCount
     {
         get => jumpCount;
@@ -87,15 +99,15 @@ public class PlayerMove : MonoBehaviour
                 rigid.velocity = isRight * new Vector2(maxSpeed, rigid.velocity.y); 
             }
         }
-        else
-        {
-            //rigid.transform.Translate(onAirSpeed * Time.deltaTime * moveDir);
-            if ((rigid.velocity.x > 0 && moveDir.x < 0) || (rigid.velocity.x < 0 && moveDir.x > 0))
-            {
-                // 공중에서 진행방향, 입력방향 다르면
-                rigid.AddForce(onAirSpeed * moveDir, ForceMode2D.Force);
-            }
-        }
+        //else
+        //{
+        //    //rigid.transform.Translate(onAirSpeed * Time.deltaTime * moveDir);
+        //    if ((rigid.velocity.x > 0 && moveDir.x < 0) || (rigid.velocity.x < 0 && moveDir.x > 0))
+        //    {
+        //        // 공중에서 진행방향, 입력방향 다르면
+        //        rigid.AddForce(onAirSpeed * moveDir, ForceMode2D.Force);
+        //    }
+        //}
     }
 
     void Move(Vector2 input, bool isPressed)
@@ -116,9 +128,15 @@ public class PlayerMove : MonoBehaviour
         // 바닥인지, 2단점프 구현
         if (IsJumpAvailable())
         {
-            rigid.AddForce(jumpPower * Vector2.up, ForceMode2D.Impulse);
+            if (OnAir && (rigid.velocity.x > 0 && moveDir.x < 0) || (rigid.velocity.x < 0 && moveDir.x > 0))
+            {
+                rigid.AddForce((onAirSpeed * moveDir)+(jumpPower * Vector2.up), ForceMode2D.Impulse);
+            }
+            else
+            {
+                rigid.AddForce(jumpPower * Vector2.up, ForceMode2D.Impulse);
+            }
             JumpCount--;
-            onAir = true;
             StopAllCoroutines();
         }
     }
@@ -153,17 +171,16 @@ public class PlayerMove : MonoBehaviour
 
     public void JumpCountReset()
     {
-        if (rigid.velocity.y < 0.01f && onAir)
+        if (!OnAir)
         {
-            JumpCount = CanDoubleJump ? 2 : 1;
             StartCoroutine(JumpCountResetCoroutine());
+            JumpCount = CanDoubleJump ? 2 : 1;
         }
     }
 
     IEnumerator JumpCountResetCoroutine()
     {
         yield return wait;
-        onAir = false;
     }
 
 #if UNITY_EDITOR
