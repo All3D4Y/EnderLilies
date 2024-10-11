@@ -18,10 +18,10 @@ public class EventManager
     }
 
 
-    public event Action<string> onChangedEquipSkill;
+    public event Action<SlotData> onChangedEquipSkill;
 
-    public void ChangedEquipSkill(string iconPath)
+    public void ChangedEquipSkill(SlotData data)
     {
-        onChangedEquipSkill?.Invoke(iconPath);
+        onChangedEquipSkill?.Invoke(data);
     }
 }

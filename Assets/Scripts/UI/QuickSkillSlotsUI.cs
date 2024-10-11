@@ -5,7 +5,9 @@ using UnityEngine;
 public class QuickSkillSlotsUI : MonoBehaviour 
 {
     public GameObject quickSkillSlotPrefab;
-    List<QuickSkillSlotUI> quickSkillSlotUI;
+    public List<QuickSkillSlotUI> quickSkillSlotUI;
+
+    public int quickSkillSlotsIndex;
     private void Awake()
     {
         quickSkillSlotUI = new List<QuickSkillSlotUI>();
@@ -14,7 +16,6 @@ public class QuickSkillSlotsUI : MonoBehaviour
             QuickSkillSlotUI newSlot = Instantiate(quickSkillSlotPrefab, transform).GetComponent<QuickSkillSlotUI>();
             newSlot.index = i;
             quickSkillSlotUI.Add(newSlot);
-            EventManager.instance.onChangedEquipSkill += newSlot.SetUI;
         }
     }
 }

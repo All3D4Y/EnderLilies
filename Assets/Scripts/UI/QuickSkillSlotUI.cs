@@ -8,8 +8,8 @@ public class QuickSkillSlotUI : MonoBehaviour
     public int index;
     [SerializeField] Image skillImage;
 
-    public void  SetUI(string path)
+    public void  SetUI(SlotData data)
     {
-        skillImage.sprite = Resources.Load<Sprite>(path);
+        skillImage.sprite = Resources.Load<Sprite>(GameManager.instance.gameDB.GetGameData(data.dataID).iconPath);
     }
 }

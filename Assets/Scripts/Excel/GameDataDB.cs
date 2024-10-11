@@ -10,4 +10,5 @@ public class GameDataDB
     public string name;
     public string prefabPath;
     public string iconPath;
+    public string explain;
 }

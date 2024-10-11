@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -14,13 +15,17 @@ public class DragSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     private CanvasGroup canvasGroup;
     private RectTransform rectTransform;
     private Vector2 originalPosition;
+    Button infoButton;
+    public event Action<string> onUpdateExplain;
 
     private void Awake()
     {
         canvasGroup = GetComponent<CanvasGroup>();
         rectTransform = GetComponent<RectTransform>();
         canvas = FindObjectOfType<Canvas>().transform;
-        originalPosition = rectTransform.anchoredPosition; 
+        originalPosition = rectTransform.anchoredPosition;
+        infoButton = GetComponent<Button>();
+        infoButton.onClick.AddListener(() => ExplainInfo(dropSlot.slotData.dataID));
     }
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -52,6 +57,10 @@ public class DragSlot : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
     {
         Canvas canvas = GetComponentInParent<Canvas>();
         return canvas.scaleFactor;
+    }
+    private void ExplainInfo(string id)
+    {
+        onUpdateExplain?.Invoke(id);
     }
     public void UpdateIconImage(Sprite sprite)
     {

@@ -25,13 +25,15 @@ public class GameData
     }
     public PlayerStatus playerStatus;
     public SkillInventoryData skillInventoryData;
-    public SkillEquipInventoryData skillEquipInventoryData;
+    public SkillEquipInventoryData skillEquipInventoryData1;
+    public SkillEquipInventoryData skillEquipInventoryData2;
     public GameData()
     {
         playerStatus = new PlayerStatus();
         skillInventoryData = new SkillInventoryData();
-        skillEquipInventoryData = new SkillEquipInventoryData();
-       // Save();
+        skillEquipInventoryData1 = new SkillEquipInventoryData();
+        skillEquipInventoryData2 = new SkillEquipInventoryData();
+        // Save();
     }
     [ContextMenu("Save To Json Data")]
     public void Save()

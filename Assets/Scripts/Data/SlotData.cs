@@ -9,7 +9,7 @@ public class SlotData
     public int count;
     public int maxCount = 99;
     public event Action<SlotData> onDataChanged;
-    public void SetData(string id, int newCount)
+    public void SetData(string id, int newCount) //여기 아이디가 같은게 있다면 카운트만 늘리면됨
     {
         if (id == null || newCount <= 0)
         {

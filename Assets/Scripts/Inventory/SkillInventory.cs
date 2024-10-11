@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class SkillInventory : BaseInventory
 {
+    [SerializeField] ExplainUI explainUI;
     private SkillInventoryData skillInventoryData;
 
     protected override void Awake()
@@ -19,6 +20,7 @@ public class SkillInventory : BaseInventory
         {
             skillInventoryData.slotDatas[i].onDataChanged += slots[i].SetDataUI;
             slots[i].SetDataUI(skillInventoryData.slotDatas[i]);
+            slots[i].dragSlot.onUpdateExplain += explainUI.SetExplainUI;
         }
     }
 }

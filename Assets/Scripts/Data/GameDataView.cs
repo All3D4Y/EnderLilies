@@ -20,7 +20,7 @@ public class GameDataViewer : MonoBehaviour
         }
 
         data = GameData.instance;
-        data.Load();
+        //data.Load();
     }
     private void OnDisable()
     {
